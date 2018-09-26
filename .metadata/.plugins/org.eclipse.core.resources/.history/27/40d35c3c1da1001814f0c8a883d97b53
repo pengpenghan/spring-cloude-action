@@ -1,0 +1,18 @@
+package com.hpp.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public List<String> getUserList() {
+		List<String> list = new ArrayList();
+		list.add("hpp");
+		list.add("djj");
+		list.add("xlg");
+		list.add("szl");
+		return null;
+	}
+
+}

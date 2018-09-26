@@ -1,0 +1,5 @@
+package com.hpp.service;
+
+public class UserServiceImpl {
+
+}

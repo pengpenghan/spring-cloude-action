@@ -1,0 +1,3 @@
+server.port: 8009
+#service name
+spring.application.name: hystrix-dashboard

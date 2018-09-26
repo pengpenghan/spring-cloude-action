@@ -1,0 +1,7 @@
+server.port: 8009
+#service name
+spring.application.name: hystrix-dashboard
+
+hystrix.command.default.execution.timeout.enabled=true
+#hystrix.command.default.execution.timeout.enabled=false
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=6000
