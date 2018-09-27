@@ -1,0 +1,10 @@
+#链路关系追踪
+server.port=8007
+
+spring.application.name=zipkin-server
+
+zuul.routes.user-service.stripPrefix=false
+zuul.host.connect-timeout-millis=60000
+zuul.host.socket-timeout-millis=60000
+
+eureka.client.serviceUrl.defaultZone=http://127.0.0.1:8001/eureka/

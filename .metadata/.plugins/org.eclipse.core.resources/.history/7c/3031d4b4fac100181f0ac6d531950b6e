@@ -1,0 +1,6 @@
+#链路关系追踪
+server.port=8007
+
+spring.application.name=zipkin-server
+
+eureka.client.serviceUrl.defaultZone=http://127.0.0.1:8001/eureka/
